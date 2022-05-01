@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(178, 178, 163);
+	font-family: "Share Tech Mono";
+}
+
+.navbar {
+	display: flex;
+	height: 4em;
+	border: 3px solid black;
+	background-image: url("images/front.jpg");
+	justify-content: space-evenly;
+	font-family: "Share Tech Mono";
+	font-size: 2em;
+	height: 13em;
+	background-repeat: no-repeat;
+	padding-bottom: 2em;
+	width: auto 100%;
+	justify-items: center;
+	margin: 0 2em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.nav-items {
+	text-decoration: none;
+	font-size: 1em;	
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	border: solid black 4px;
+	margin-top: 2em;
+	border-radius: 25%;
+	
+}
+
+.grid-item {
+	height: 350px;
+	font-size: 1.5em;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	justify-items: center;
+	
+}
+
+.pitfall {
+	width: 12em;
+}
+
+.riverraid {
+	width: 12em;
+}
+
+.quote {
+	display: flex;
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	height: 7em;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 2em 2em;
+
+}
+
+#monthly-challenge {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 2em;
+	gap: 2em;
+	justify-content: baseline;
+	align-items: center;
+	justify-items: center;
+}
+
+.barn {
+	width: 50%;
+	height: auto;
+}
+
+#contact-section {
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 1em;
+	height: 12em;
+	padding: 1em;
+	margin: 2em 2em;
+	line-height: 1em;	
+}
+
+a {
+    cursor: pointer;
+}
