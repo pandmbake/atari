@@ -9,36 +9,35 @@ body {
 
 .navbar {
 	display: flex;
-	height: 4em;
 	border: 3px solid black;
 	background-image: url("images/front.jpg");
 	justify-content: space-evenly;
-	font-family: "Share Tech Mono";
 	font-size: 2em;
 	height: 13em;
 	background-repeat: no-repeat;
 	padding-bottom: 2em;
-	width: auto 100%;
+	width: auto;
 	justify-items: center;
-	margin: 0 2em;
+	margin: 0 10em;
+}
+.navbar-title {
+	font-size: 1em;
 }
 
 ul {
 	list-style-type: none;
+	font-size: 1em;
 }
 
 .nav-items {
 	text-decoration: none;
-	font-size: 1em;	
+	font-size: 0.7em;	
 }
 
 .grid-container {
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
-	border: solid black 4px;
 	margin-top: 2em;
-	border-radius: 25%;
-	
 }
 
 .grid-item {
@@ -52,11 +51,7 @@ ul {
 	
 }
 
-.pitfall {
-	width: 12em;
-}
-
-.riverraid {
+.pitfall, .riverraid {
 	width: 12em;
 }
 
